@@ -29,8 +29,9 @@ Tambien nos gustaría poder hacer uso e integración de las redes sociales , com
 
 La idea es que la imagen de la pagina sea algo sobrio , no demasiado recargado y por supuesto plenamente funcional , la imagen que mas se acerca  a lo que buscamos es la interfaz metro usada por microsoft en su ultimo sistema operativo.
 Aqui dejo una aproximacion del logo de la pagina:
-<img src=""/>
-	
+
+<img src="http://i44.tinypic.com/jic311.png" border="0" alt="Image and video hosting by TinyPic">
+
 **CONCLUSION**
 
 Lo que se busca con este proyecto es poner al acance de la mano de los usuarios un portal de noticias personalizado que se  convierta en la referencia diaria a la hora de informarse usando internet , y que ademas permita a los usuarios la posibilidad de interactuar con las redes sociales .

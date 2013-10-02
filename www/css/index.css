@@ -7,52 +7,91 @@ html {
 	overflow:hidden;
 		}	
 #container{
-	width:70%;
+	width:72%;
 	height:100%;
 	margin: auto;
+
 	
 	}
 #upper_bar{
 	width:100%;
 	height:7%;
 	background-color: black;
+		-moz-box-shadow: 0px 0px 30px #ffffff; 
+	-webkit-box-shadow: 0px 0px 30px #ffffff; 
+	box-shadow: 0px 0px 30px #ffffff;
+	/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
 	
 	}
 #menu_bar{
 		width:100%;
-		height:4%;
+		height:5%;
 		background-color:grey;
+		/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	
 		}
 #middle_left{
-	width:50%;
+	width:49.65%;
 	height:40%;
 	background-color: red;
 	float: left;
 	overflow:hidden;
+	/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	
 	
 	}
 #middle_right{
-	width:50%;
+	width:49.65%;
 	height:40%;
 	background-color: orange;
 	float:right;
 	overflow:hidden;
+	/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	
 	
 	}
 #bottom_left{
-	width:50%;
+	width:49.65%;
 	height:40%;
 	background-color: green;
 	float: left;
 	overflow:hidden;
+	/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	
 	
 	}
 #bottom_right{
-	width:50%;
+	width:49.65%;
 	height:40%;
 	float:right;
 	background-color: black;
 	overflow:hidden;
+	/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	
 	
 	}
 #footer{
@@ -61,6 +100,13 @@ html {
 	background-color: rgb(204, 65, 0);
 	float:left;
 	overflow:hidden;
+	
+	/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+	
 }
 #formulario{
 	width: 40%;
@@ -71,7 +117,7 @@ html {
 }
 img {
 	max-width: 100%;
-	height: auto;
+
 }
 a>img{
 width:4%;
@@ -104,7 +150,7 @@ ul.menu a {
 }
  
 ul.menu {
-    height: 50px;
+    height: 53px;
     width: 100%;
  
     background: #4c4e5a;

@@ -72,6 +72,11 @@
 	max-width: 100%;
 	height: auto;
 }
+a>img{
+width:4%;
+height:80%;
+
+}
 #upper_bar >img 
 {
 max-width:100%;
@@ -82,7 +87,7 @@ width:4%;
 height:80%;
 }
 #social_networks{
-width:80%;
-height:100%;
+width:86%;
+height:130%;
 float:left;
 }

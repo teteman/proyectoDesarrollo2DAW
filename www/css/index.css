@@ -44,6 +44,8 @@ html {
 	background-color: red;
 	float: left;
 	overflow:hidden;
+	background: url(../img/deporte.jpg);
+	background-size: cover;
 	/*estilos para redondear bordes*/
 	border:groove 2px #332f33;
 	-moz-border-radius: 9px;
@@ -58,6 +60,8 @@ html {
 	background-color: orange;
 	float:right;
 	overflow:hidden;
+	background: url(../img/vietnam.jpg); 
+	background-size: cover;
 	/*estilos para redondear bordes*/
 	border:groove 2px #332f33;
 	-moz-border-radius: 9px;
@@ -72,6 +76,8 @@ html {
 	background-color: green;
 	float: left;
 	overflow:hidden;
+	background: url(../img/fabrica.jpg); 
+	background-size: cover;
 	/*estilos para redondear bordes*/
 	border:groove 2px #332f33;
 	-moz-border-radius: 9px;
@@ -86,6 +92,8 @@ html {
 	float:right;
 	background-color: black;
 	overflow:hidden;
+	background: url(../img/Android.jpg); 
+	background-size: cover;
 	/*estilos para redondear bordes*/
 	border:groove 2px #332f33;
 	-moz-border-radius: 9px;
@@ -97,7 +105,7 @@ html {
 #footer{
 	width:100%;
 	height:4%;
-	background-color: rgb(204, 65, 0);
+	background-color: 778899;
 	float:left;
 	overflow:hidden;
 	
@@ -117,7 +125,7 @@ html {
 }
 img {
 	max-width: 100%;
-
+	max-height: 100%;
 }
 a>img{
 width:4%;

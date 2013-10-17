@@ -1,17 +1,22 @@
+
 html { 
-	 background: url(../img/microfono2.jpg) no-repeat center center fixed; 
+
 	 -webkit-background-size: cover;
 	 -moz-background-size: cover;
 	 -o-background-size: cover;
 	 background-size: cover;
 	overflow:hidden;
+	background-color: #FFEFD5;
 		}	
 #container{
 	width:72%;
-	height:100%;
-	margin: auto;
-
-	
+	height:auto;
+	margin: 0 auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:center;
 	}
 #upper_bar{
 	width:100%;
@@ -25,7 +30,7 @@ html {
 	-moz-border-radius: 9px;
 	-webkit-border-radius: 9px;
 	border-radius: 9px;
-	
+	order:1;
 	}
 #menu_bar{
 		width:100%;
@@ -36,9 +41,11 @@ html {
 	-moz-border-radius: 9px;
 	-webkit-border-radius: 9px;
 	border-radius: 9px;
-		}
+	order:2;
+	}
+	
 #middle_left{
-	width:49.65%;
+	width:49.7%;
 	height:40%;
 	background-color: red;
 	float: left;
@@ -47,14 +54,13 @@ html {
 	background-size: cover;
 	/*estilos para redondear bordes*/
 	border:groove 2px #332f33;
-	-moz-border-radius: 9px;
-	-webkit-border-radius: 9px;
-	border-radius: 9px;
-	
+	-webkit-border-radius: 9px 0px 0px 9px;
+	border-radius: 9px 0px 0px 9px; 
+	order:3;
 	
 	}
 #middle_right{
-	width:49.65%;
+	width:49.7%;
 	height:40%;
 	background-color: orange;
 	float:right;
@@ -63,14 +69,13 @@ html {
 	background-size: cover;
 	/*estilos para redondear bordes*/
 	border:groove 2px #332f33;
-	-moz-border-radius: 9px;
-	-webkit-border-radius: 9px;
-	border-radius: 9px;
-	
+	-webkit-border-radius: 0px 9px 9px 0px;
+	border-radius: 0px 9px 9px 0px; 
+	order:3;
 	
 	}
 #bottom_left{
-	width:49.65%;
+	width:49.7%;
 	height:40%;
 	background-color: green;
 	float: left;
@@ -79,14 +84,13 @@ html {
 	background-size: cover;
 	/*estilos para redondear bordes*/
 	border:groove 2px #332f33;
-	-moz-border-radius: 9px;
-	-webkit-border-radius: 9px;
-	border-radius: 9px;
-	
+	-webkit-border-radius: 9px 0px 0px 9px;
+	 border-radius: 9px 0px 0px 9px; 
+	order:3;
 	
 	}
 #bottom_right{
-	width:49.65%;
+	width:49.7%;
 	height:40%;
 	float:right;
 	background-color: black;
@@ -95,9 +99,9 @@ html {
 	background-size: cover;
 	/*estilos para redondear bordes*/
 	border:groove 2px #332f33;
-	-moz-border-radius: 9px;
-	-webkit-border-radius: 9px;
-	border-radius: 9px;
+	-webkit-border-radius: 0px 9px 9px 0px;
+	border-radius: 0px 9px 9px 0px; 
+	order:3;
 	
 	
 	}
@@ -113,15 +117,9 @@ html {
 	-moz-border-radius: 9px;
 	-webkit-border-radius: 9px;
 	border-radius: 9px;
-	
+	order:4;
 }
-#formulario{
-	width: 45%;
-	height:40%;
-	float: right;
-	margin:1.4%;
-	margin-right: 0%;
-}
+
 img {
 	max-width: 100%;
 	max-height: 100%;
@@ -155,7 +153,9 @@ ul.menu a {
     border: none;
     outline: none;
 }
- 
+form{
+font-family:inherit;
+}
 ul.menu {
     height: 53px;
     width: 100%;
@@ -189,8 +189,8 @@ ul.menu li a {
     border-left: 1px solid #393942;
     border-right: 1px solid #4f5058;
  
-    /*font-family: Helvetica, Arial, sans-serif;*/
-	font-family: 'afta_serifregular';
+    font-family: Helvetica, Arial, sans-serif;
+	/*font-family: 'afta_serifregular';*/
     font-weight: normal;
     font-size: 17px;
  
@@ -270,3 +270,248 @@ ul.menu ul li:last-child a { border: none; }
 
 }
 
+
+
+@media(min-width: 790px) and (max-width: 1910px){
+	html { 
+
+		}	
+
+	#container{		
+		background-color: black;	
+		overflow:hidden;
+		width:90%;
+		height:auto;
+		margin: 0 auto;
+	-webkit-border-radius: 9px 0px 0px 9px;
+	border-radius: 9px 9px 9px 9px; 
+	}
+	#upper_bar{
+		
+		width:99.8%;
+		height:7%;
+		background-color: black;	
+		/*estilos para redondear bordes*/
+		border:groove 1px #332f33;
+	}
+	#menu_bar {
+	width:99.8%;
+	height:6%;	
+	}
+	#middle_left{
+	width:49.4%;
+	height:39.1%;	
+	overflow:hidden;
+	background: url(../img/deporte.jpg);
+	background-size: cover;
+	/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-webkit-border-radius: 9px 0px 0px 9px;
+	border-radius: 9px 0px 0px 9px; 
+	}
+
+	#middle_right{
+		width:49.4%;
+		height:39.1%;
+		overflow:hidden;
+		background: url(../img/vietnam.jpg); 
+		background-size: cover;
+		/*estilos para redondear bordes*/
+		border:groove 2px #332f33;
+		-webkit-border-radius: 9px 0px 0px 9px;
+		border-radius: 0px 9px 9px 0px; 
+		
+		
+		}
+	#bottom_left{
+		width:49.4%;
+		height:39.1%;
+		overflow:hidden;
+		background: url(../img/fabrica.jpg); 
+		background-size: cover;
+		/*estilos para redondear bordes*/
+		border:groove 2px #332f33;
+		-webkit-border-radius: 9px 0px 0px 9px;
+		border-radius: 9px 0px 0px 9px; 
+		
+		
+		}
+	#bottom_right{
+		width:49.4%;
+		height:39.1%;
+		overflow:hidden;
+		background: url(../img/Android.jpg); 
+		background-size: cover;
+		/*estilos para redondear bordes*/
+		border:groove 2px #332f33;
+		-webkit-border-radius: 9px 0px 0px 9px;
+		border-radius:0px 9px 9px 0px;  
+		}
+
+	#footer{
+		width:99.8%;
+		height:6%;
+	
+		background-color: grey;
+		float:left;
+		overflow:hidden;
+		
+		/*estilos para redondear bordes*/
+		border:groove 2px #332f33;
+		-moz-border-radius: 9px;
+		-webkit-border-radius: 9px;
+		border-radius: 9px;
+		
+	}
+
+	img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	a>img{
+	width:4%;
+	height:80%;
+
+	}
+	#upper_bar >img 
+	{
+	max-width:100%;
+	height:100%;
+	}
+
+	#social_networks{
+	width:100%;
+	height:120%;
+	float:left;
+	}
+	
+ul.menu li a {
+    font-size: 12px;
+}
+	
+}
+
+
+@media(max-width: 790px) {
+	html { 
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 overflow:hidden;	
+	 background:none;
+	 background-color: black;
+
+		}	
+
+	#container{	
+		overflow:hidden;
+		width:100%;
+		height: auto;
+		margin: 0 auto;
+		background-color: black;	
+	}
+	#upper_bar{
+		width:100%;
+		height:5%;
+		background-color: black;	
+		/*estilos para redondear bordes*/
+		border:groove 1px #332f33;
+	}
+	#menu_bar {
+		display: none;
+	}
+	#middle_left{
+	width:99%;
+	height:22%;
+	background-color: red;
+	overflow:hidden;
+	background: url(../img/deporte.jpg);
+	background-size: cover;
+	/*estilos para redondear bordes*/
+	border:groove 2px #332f33;
+	-webkit-border-radius: 9px 0px 0px 9px;
+	border-radius: 9px 9px 9px 9px; 
+	}
+
+	#middle_right{
+		width:99%;
+		height:22%;
+		background-color: orange;
+		overflow:hidden;
+		background: url(../img/vietnam.jpg); 
+		background-size: cover;
+		/*estilos para redondear bordes*/
+		border:groove 2px #332f33;
+		-webkit-border-radius: 9px 0px 0px 9px;
+		border-radius: 9px 9px 9px 9px; 
+		
+		
+		}
+	#bottom_left{
+		width:99%;
+		height:22%;
+		background-color: green;
+		overflow:hidden;
+		background: url(../img/fabrica.jpg); 
+		background-size: cover;
+		/*estilos para redondear bordes*/
+		border:groove 2px #332f33;
+		-webkit-border-radius: 9px 0px 0px 9px;
+		border-radius: 9px 9px 9px 9px; 
+		
+		
+		}
+	#bottom_right{
+		width:99%;
+		height:22%;
+		background-color: green;
+		overflow:hidden;
+		background: url(../img/Android.jpg); 
+		background-size: cover;
+		/*estilos para redondear bordes*/
+		border:groove 2px #332f33;
+		-webkit-border-radius: 9px 0px 0px 9px;
+		border-radius: 9px 9px 9px 9px; 
+		}
+
+	#footer{
+		width:99.5%;
+		height:4%;
+		background-color: grey;
+		float:left;
+		overflow:hidden;
+		
+		/*estilos para redondear bordes*/
+		border:groove 2px #332f33;
+		-moz-border-radius: 9px;
+		-webkit-border-radius: 9px;
+		border-radius: 9px;
+		
+	}
+
+	img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+	a>img{
+	width:4%;
+	height:80%;
+
+	}
+	#upper_bar >img 
+	{
+	max-width:100%;
+	height:100%;
+	}
+	#social_networks>img{
+	width:4%;
+	height:80%;
+	}
+	#social_networks{
+	width:210%;
+	height:110%;
+	float:left;
+	}
+	
+}
